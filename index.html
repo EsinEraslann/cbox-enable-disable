@@ -8,98 +8,146 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="container mt-5">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox1">
-            <label class="form-check-label" for="checkbox1">
-                Rumah Modern | Deposit $50,000 | Lot 38,000 | Durasi Trading 6 Bulan
-            </label>
+        <!-- Button to open modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#checkboxModal">
+            Checkboxes
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="checkboxModal" tabindex="-1" role="dialog" aria-labelledby="checkboxModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="checkboxModalLabel">Checkboxes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Checkbox list inside modal -->
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox1">
+                            <label class="form-check-label" for="checkbox1">
+                                Rumah Modern | Deposit $50,000 | Lot 38,000 | Durasi Trading 6 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox2">
+                            <label class="form-check-label" for="checkbox2">
+                                Mini Cooper Countryman S | Deposit $40,000 | Lot 30,000 | Durasi Trading 5 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox3">
+                            <label class="form-check-label" for="checkbox3">
+                                Honda HRV S CVT | Deposit $30,000 | Lot 23,000 | Durasi Trading 4 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox4">
+                            <label class="form-check-label" for="checkbox4">
+                                Jam Tangan Mewah | Rolex Submariner | Deposit $20,000 | Lot 16,000 | Durasi Trading 4 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox5">
+                            <label class="form-check-label" for="checkbox5">
+                                Gold 100gr | Deposit $15,000 | Lot 10,000 | Durasi Trading 4 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox6">
+                            <label class="form-check-label" for="checkbox6">
+                                Gold 50gr | Deposit $10,000 | Lot 7000 | Durasi Trading 3 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox7">
+                            <label class="form-check-label" for="checkbox7">
+                                Gold 25gr | Deposit $7,000 | Lot 5000 | Durasi Trading 3 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox8">
+                            <label class="form-check-label" for="checkbox8">
+                                Gold 10gr | Deposit $3,000 | Lot 1600 | Durasi Trading 3 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox9">
+                            <label class="form-check-label" for="checkbox9">
+                                Gold 5gr | Deposit $1,500 | Lot 250 | Durasi Trading 2 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox10">
+                            <label class="form-check-label" for="checkbox10">
+                                Gold 2gr | Deposit $500 | Lot 110 | Durasi Trading 2 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox11">
+                            <label class="form-check-label" for="checkbox11">
+                                Vespa Primavera | Deposit $8,000 | Lot 6,500 | Durasi Trading 3 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox12">
+                            <label class="form-check-label" for="checkbox12">
+                                Yamaha Grand Filano Lux | Deposit $6,000 | Lot 4,000 | Durasi Trading 3 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox13">
+                            <label class="form-check-label" for="checkbox13">
+                                Nihiw Sumba 3D2N (Flight & Hotel for 2 pax) | Deposit $12,000 | Lot 8,000 | Durasi Trading 3 Bulan
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkbox14">
+                            <label class="form-check-label" for="checkbox14">
+                                Bali 3D2N (Flight & Hotel for 2 pax) | Deposit $4,000 | Lot 2,000 | Durasi Trading 3 Bulan
+                            </label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="submitButton" class="btn btn-primary" disabled>Send</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox2">
-            <label class="form-check-label" for="checkbox2">
-                Mini Cooper Countryman S | Deposit $40,000 | Lot 30,000 | Durasi Trading 5 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox3">
-            <label class="form-check-label" for="checkbox3">
-                Honda HRV S CVT | Deposit $30,000 | Lot 23,000 | Durasi Trading 4 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox4">
-            <label class="form-check-label" for="checkbox4">
-                Jam Tangan Mewah | Rolex Submariner | Deposit $20,000 | Lot 16,000 | Durasi Trading 4 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox5">
-            <label class="form-check-label" for="checkbox5">
-                Gold 100gr | Deposit $15,000 | Lot 10,000 | Durasi Trading 4 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox6">
-            <label class="form-check-label" for="checkbox6">
-                Gold 50gr | Deposit $10,000 | Lot 7000 | Durasi Trading 3 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox7">
-            <label class="form-check-label" for="checkbox7">
-                Gold 25gr | Deposit $7,000 | Lot 5000 | Durasi Trading 3 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox8">
-            <label class="form-check-label" for="checkbox8">
-                Gold 10gr | Deposit $3,000 | Lot 1600 | Durasi Trading 3 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox9">
-            <label class="form-check-label" for="checkbox9">
-                Gold 5gr | Deposit $1,500 | Lot 250 | Durasi Trading 2 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox10">
-            <label class="form-check-label" for="checkbox10">
-                Gold 2gr | Deposit $500 | Lot 110 | Durasi Trading 2 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox11">
-            <label class="form-check-label" for="checkbox11">
-                Vespa Primavera | Deposit $8,000 | Lot 6,500 | Durasi Trading 3 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox12">
-            <label class="form-check-label" for="checkbox12">
-                Yamaha Grand Filano Lux | Deposit $6,000 | Lot 4,000 | Durasi Trading 3 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox13">
-            <label class="form-check-label" for="checkbox13">
-                Nihiw Sumba 3D2N (Flight & Hotel for 2 pax) | Deposit $12,000 | Lot 8,000 | Durasi Trading 3 Bulan
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="checkbox14">
-            <label class="form-check-label" for="checkbox14">
-                Bali 3D2N (Flight & Hotel for 2 pax) | Deposit $4,000 | Lot 2,000 | Durasi Trading 3 Bulan
-            </label>
-        </div>
-        <button id="submitButton" class="btn btn-primary mt-3" disabled>Gönder</button>
     </div>
 
+
     <div class="form-group d-inline-flex">
-        <input id="ChargeCard" class="btn bg-primary text-light ml-auto align-self-end rounded-0" disabled="disabled"
+        <input type="button" id="ChargeCard" class="btn not-allowed bg-primary text-light ml-auto align-self-end rounded-0" disabled="disabled"
           value="Confirm" />
       </div>
+
+      <p>
+        <select name="filter_x"  id="filter_x" onchange="filter_check('filter_x');">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+        </p>
+        <p>
+        <select name="filter_y"  id="filter_y" onchange="filter_check('filter_y');">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+        </p>
+        <select name="filter_z" id="filter_z" onchange="filter_check('filter_z');">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+        </p>
+        <input type="button" id="butn" value="Найти" disabled="disabled" />
 
 
     <script src="script.js"></script>

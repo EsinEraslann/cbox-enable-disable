@@ -1,1 +1,1 @@
-# cbox-enable-disable
+Enable Disable Submit Button If One Checkbox is Checked
