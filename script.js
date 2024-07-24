@@ -39,4 +39,3 @@ function filter_check(clas) {
     document.getElementById("butn").className += " disable";
   }
 }
-
